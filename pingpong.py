@@ -1,6 +1,8 @@
 from pygame import *
 #import pygame
 
+
+#tes
 #parent class for sprites
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, player_speed, width, height):
