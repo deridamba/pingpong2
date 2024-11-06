@@ -81,10 +81,12 @@ while game:
             finish = True
             window.blit(lose1, (200, 200))
             game_over = True
-        
+
+        #if ball flies behind paddle 2, player 2 lose
         if ball.rect.x > win_width:
             finish = True
             window.blit(lose2, (200, 200))
+            game_over = True
     
         racket1.reset()
         racket2.reset()
